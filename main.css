@@ -1,26 +1,77 @@
 body{
     padding: 0%;
-    display: flex;
-    margin: 0%0;
+    
+    margin: 0%;
+    box-sizing: border-box;
+    
 }
 header{
+
+
+    width: 100%;
+   
+    background-color:gainsboro;
+  
+}
+#fotologo{
+    height: 11vh;
+}
+#nomeloja{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+ right: 1vw;
+ top: 5px;
+
+}
+#pesquisa{
+height:8vh ;
+position: relative;
+left: 2vw;
+
+}
+#digiteproduto{
+height: 7vh;
+width: 22vw;
+position: relative;
+left: -6px;
+}
+
+.inicio{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    height: 20%;
-    background-color:gainsboro;
     align-items: center;
 }
 #linkentra{
+    
      position: absolute;
      left: 95vw;
-     text-decoration: none;
+    
      color: black;
   
 }
 #linkpreenche{
     position: absolute;
     left: 87vw;
-    text-decoration: none;
+
     color: black;
 }
+#produto,#categoria,#pedido{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+   
+}
+#home{
+    color:orangered ;
+     padding: 10px;
+    
+}
+.posicaocategoria{
+    height: 7vh;
+    margin: 0%
+    
+}
+main{
+    margin-top: ;
+}
+
